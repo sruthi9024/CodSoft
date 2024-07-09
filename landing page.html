@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing Page</title>
+	<link rel="icon" type="image/x-icon" href=https://wottagirl.com/cdn/shop/files/Layerr_Wottagirl_Logo_130x@2x.png?v=1631352991">
+
+</head>
+<style>
+input{
+border:1px solid black;
+padding:10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+font-family: "Lucida Console", Monaco, monospace;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+.collection {
+    padding: 30px 0;
+    text-align: center;
+}
+.newspaper{
+	column-count:4;
+	column-gap:30px;
+	justify-content:flex-end;
+	text-align:justify;
+}
+
+.collection .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.collect {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.collect .contain{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+button {
+	background-color:white;
+  border: 0.2px solid black;
+  color: black;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+font-family: "Lucida Console", Monaco, monospace;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  box-shadow: inset 0 0 0 0 darkviolet;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+	
+}
+button:hover{
+	border:none;
+color:white;
+  box-shadow: inset 400px 0 0 0 darkviolet;
+}
+
+.card {
+    width: calc(20% - 15px); /* Adjust card width and margin */
+    
+    background-color: #fff;
+    
+    margin-left:50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%; 
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+.card p{
+	font-style:Arial;
+	font-size:15px;
+	color:black;
+	text-decoration:none;
+}
+.card content p{
+	font-style:Arial;
+	color:black;
+	text-decoration:none;
+}
+.card a{
+text-decoration:none;
+}
+
+nav a{
+		text-decoration:none;
+  		color: black;
+		font-size:16px;
+  		padding: 14px 25px;
+  		display: inline-block;
+
+}
+nav a:hover{
+		text-decoration: underline navy;
+		text-underline-offset:10px;
+		color:black;
+
+}
+</style>
+<body>
+
+             
+	<div id="home" style="background-color:darkviolet;color:white;font-size:20px;">
+		<pre>  YOU'LL LOVE IT	   EXCLUSIVE DEAL:Buy 3 Body Splash @Rs.499/-| Buy 1 Get 1 EDP Free|Limited Time Offer</pre>
+	</div>
+		<div style="text-align:center;">
+		<img src="https://wottagirl.com/cdn/shop/files/Layerr_Wottagirl_Logo_130x@2x.png?v=1631352991" width="115px" height="65px"/>
+	</div>
+
+	<nav align="center">
+		<a href="#slideshow-container">HOME</a>
+		<a href="#collection">NEW ARRIVALS</a>
+		<a href="#about">ABOUT</a>
+            </nav>
+<section id="slideshow-container">
+
+<div class="mySlides fade">
+
+  <img src="https://wottagirl.com/cdn/shop/files/Copy_of_website_banner-02_1600x.jpg?v=1718706913" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+
+  <img src="https://wottagirl.com/cdn/shop/files/Homepage_banner-04_1600x.jpg?v=1718864346" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="https://wottagirl.com/cdn/shop/files/Homepage_banner-02-02_1600x.jpg?v=1718864823" style="width:100%">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<section id="collection" class="collection">
+<p style="font-size:15px;font-style:Arial;" align="center">TRENDING THIS SEASON</p>
+<nav align="center">
+		<a href="#collection">FRAGRANCE</a>
+                <a href="#collect">BATH & BODY</a>
+</nav>
+
+            <div class="container">
+                <section id="collection" class="collection">
+    <div class="container">
+        <div class="card">
+            <a href="https://wottagirl.com/products/layerr-wottagirl-secret-crush" target="_blank">
+                <img src="https://wottagirl.com/cdn/shop/files/1_d8826312-29d2-4f9e-8515-56f83f53b4eb_400x.png?v=1708690365"/>
+		<p>SECRET CRUSH  -135ml</p>
+                <div class="card-content">
+                    <p><b>MRP: Rs.225</b><br>(Incl. of all taxes)</p>
+		    <button>ADD TO CART</button>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://wottagirl.com/products/layerr-wottagirl-french-peony-135ml" target="_blank">
+                <img src="https://wottagirl.com/cdn/shop/files/6_400x.png?v=1708690952" />
+		<p>FRENCH PEONY  -135ml</p>
+                <div class="card-content">
+                    <p><b>MRP: Rs.225</b><br>(Incl. of all taxes)</p>
+		    <button>ADD TO CART</button>
+               </div>
+            </a>
+        </div>
+	<div class="card">
+            <a href="https://wottagirl.com/products/layerr-wottagirl-french-peony-135ml" target="_blank">
+                <img src="https://wottagirl.com/cdn/shop/files/3_f7fc8f19-86c6-4b72-b5a1-2f6ec98dc0a4_400x.png?v=1708690622" />
+		<p>VANILLA TWIST  -135ml</p>
+                <div class="card-content">
+                    <p><b>MRP: Rs.225</b><br>(Incl. of all taxes)</p>
+		    <button>ADD TO CART</button>
+               </div>
+            </a>
+        </div>
+	<div class="card">
+            <a href="https://wottagirl.com/products/layerr-wottagirl-french-peony-135ml" target="_blank">
+                <img src="https://wottagirl.com/cdn/shop/files/WTGthumbnail1_400x.jpg?v=1703219038" />
+		<p>FLORA  -100ml</p>
+                <div class="card-content">
+                    <p><b>MRP: Rs.225</b><br>(Incl. of all taxes)</p>
+		    <button>ADD TO CART</button>
+               </div>
+            </a>
+        </div>
+
+    </div>
+</section>
+<section id="collect" class="collect">
+
+<p align="center" style="font-size:20px;"> BATH & BODY</p><br>
+    <div class="contain">
+        <div class="card">
+            <a href="https://wottagirl.com/collections/bath-body/products/wildberry-and-chamomile-shower-gel-300ml" target="_blank">
+                <img src="https://wottagirl.com/cdn/shop/files/E77C3720-13C1-40FC-88E2-10911549BE40_400x.jpg?v=1708673631"/>
+		<p>WILDBERRY & CHAMOMILE – 300ml</p>
+                <div class="card-content">
+                    <p><b>MRP: Rs.391</b><br>(Incl. of all taxes)</p>
+		    <button>ADD TO CART</button>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://wottagirl.com/collections/bath-body/products/layerr-wottagirl-fresh-punch" target="_blank">
+                <img src="https://wottagirl.com/cdn/shop/products/WottagirlTalc3DMS01_0001_Orange_1_400x.jpg?v=1643012175" />
+		<p>FRESH PUNCH - 100g</p>
+                <div class="card-content">
+                 	<p><b>MRP: Rs.111</b><br>(Incl. of all taxes)</p>
+			<button>ADD TO CART</button>
+                </div>
+            </a>
+        </div>
+	<div class="card">
+            <a href="https://wottagirl.com/collections/bath-body/products/layerr-wottagirl-moisturizing-cream-50g" target="_blank">
+                <img src="https://wottagirl.com/cdn/shop/products/image_a5769bf1-e64c-413c-9dbf-53b0a2aa5198_400x.jpg?v=1679038373" />
+		<p>MOISTURIZING CREAM - 50g</p>
+                <div class="card-content">
+                    <p><b>MRP: Rs.69</b><br>(Incl. of all taxes)</p>
+		    <button>ADD TO CART</button>
+               </div>
+            </a>
+        </div>
+	<div class="card">
+            <a href="https://wottagirl.com/collections/bath-body/products/layerr-wottagirl-moisturizing-lotion-100ml" target="_blank">
+                <img src="https://wottagirl.com/cdn/shop/products/LOTION_1_Mood_shot_400x.jpg?v=1634198272" />
+		<p>Moisturizing Body Lotion - 100 ml</p>
+                <div class="card-content">
+                    <p><b>MRP: Rs.79</b><br>(Incl. of all taxes)</p>
+		    <button>ADD TO CART</button>
+               </div>
+            </a>
+        </div>
+
+    </div>
+</section>
+<hr width="100%">
+<div id="about" class="newspaper" align="center" style="padding:70px;text-align:justify;">
+ABOUT THE SHOP<br><br>
+ADJAVIS DIGITAL LLP 1, Viral House,
+Near B-Safal House, B/h Armieda,Sindhu
+bhavan road, Bodakdev, Ahmedabad,
+Gujarat, 380054
+LLP Identification Number: AAQ-6908GST
+Number - 24ABQFA0523R1Z5.
+<br>
+<br>EXPLORE<br>
+About Us<br>
+Privacy Policy<br>
+Contact Us<br>
+Terms and Conditions<br>
+FAQs<br>
+Story<br>
+Terms of Service<br>
+Refund policy<br>
+Track Order<br>
+<br><br>
+PRODUCTS<br>
+Fragrance<br>
+Bath & Body<br>
+<br><br><br><br><br>
+NEWSLETTER
+<br>
+Subscribe to receive updates, access to exclusive deals, and more.
+<br><br>
+<br><input type="text" placeholder="Enter your email address"/><br><br>
+<p style="padding:10px 20px; background-color:darkviolet;color:white; cursor:pointer;">SUBSCRIBE</p>
+
+</div>
+</body>
+</html>
